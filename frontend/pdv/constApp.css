@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#titulo{
+    font-family: sans-serif;
+    color: #0a2a2c;
+    margin-left: 5%;
+    text-align: center;
+}
+
+#subtitulo{
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    
+}
+
+fieldset {
+    border: 0;
+    margin-left: 2%;
+}
+
+body {
+    background-color: rgb(243, 235, 245);
+    font-family: sans-serif;
+    font-size: 10 em;
+    text-align: center;
+    margin-top: 2%;
+    
+}
+
+
+
+input, select, button {
+    border-radius: 5px;
+}
+
+textarea {
+    border-radius: 5px;
+    padding: 0.2em;
+    border: 1px solid #59429d;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    display: block;
+    margin: 2%;
+}
+
+.campo{
+    margin-bottom: 0.5em;
+    
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    
+    color: rgba(185, 206, 207, 0.411);
+    display: block;
+}
+
+fieldset.grupo .campo {
+    float: left;
+    margin-right: 0.5em;
+    text-align: left;
+    
+}
+
+#input0, #input1, #input2, #input3 {
+    border: 1px solid #151516;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    display: block;
+}
+
+.campo input[type="text"], .campo input [type="number"], .campo select  {
+  
+    border: 2px solid #59429d;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    display: block;
+}
+
+.campo select option {
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus .campo textarea:focus {
+    background: #e0e0f8;
+}
+
+.botao {
+    font-size: 1.3em;
+    background: #a5db4e;
+    border: 0;
+    margin-bottom: 1.5em;
+    color: #ffffff;
+    padding: 0.2em 1.2em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 20px;
+    left: 5%;
+    
+    
+}
+
+.botao:hover {
+    background: #827d8f;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+}
+
+#check {
+    display: inline-block;
+}
+
+#caixa {
+    display: flex;
+    background-color: #59429d;
+    margin-top: 2%;
+    text-align: center;
+    width: 100%;
+
+}
+
+#listagem {
+    
+    margin: 1%;
+    text-align: center;
+    background-color: white;
+    width: 40%;
+    
+    font-family: 'Times New Roman', Times, serif;
+    
+    border-radius: 10px;
+}
+
+#remove {
+    display: inline-block;
+    text-align: justify;
+}
+
+#entradas {
+
+    margin-bottom: 2em;
+    margin-top: 2em;
+    border: 0;
+    margin-left: 2%;
+    color: rgba(185, 206, 207, 0.411);
+    display: block;
+    float: left;
+    margin-right: 0.5em;
+    text-align: left;
+}
+
+#info {
+    display: flex;
+    margin-left: 2%;
+}
+
+#desc{
+    display: flex;
+}
+
+#form{
+    display: flex;
+    width: 100%;
+    margin-left: 2%;
+    
+}
+
+.display{
+    margin: 10px 0;
+    text-align: center;
+    font-size: 14px;
+    
+}
+
+#prod{
+    min-width: 200px;
+    padding: 5%;
+    
+}
+
+#vlr{
+    min-width: 100px;
+    padding: 5%;
+    
+}
+
+#qtd{
+    min-width: 100px;
+    padding: 5%;
+    
+}
+
+#subTotalizar{
+    text-align: right;
+    margin: 2%;
+}
+
+#outrosEnc{
+    text-align: right;
+    margin: 2%;
+}

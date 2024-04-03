@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="constApp.css">
+    <link rel="stylesheet" href="../tempStyle.css">
+    <title>ccapturar</title>
+</head>
+<body>
+    <div>
+        <h1 id="titulo">Cadastro de Produtos</h1>
+    </div>
+    
+   <div id="caixa">
+
+    <div id="listagem">
+
+        <h2 id="list">Lista de Produtos</h2>
+
+        <div id="desc">
+        <!--<div >
+            <label>Cod</label>
+            <ul id="lista0"></ul>
+             
+        </div>  --> 
+        <div >
+           
+            <div id="lista">
+                
+            </div>
+            
+            
+        
+        </div>
+        <!--<div>
+           <label>Quantidade</label>
+            <ul id="lista2"></ul>
+            
+        </div>
+        <div>
+           <label>Valor</label>
+            <ul id="lista3"></ul>
+            
+        </div>-->
+        </div>
+
+        <h3 id="subTotalizar"></h3>
+
+        <h3 id="outrosEnc"></h3>
+
+        <h1 id="vlrTotal"></h1>
+    </div>
+    
+    <form>
+        <fieldset class="grupo">
+            
+            <h4 id="subtitulo">preencha os campos</h4>
+
+            <div class="campo">
+                <label>Cod</label>
+                <input type="number" id="input0" required/>
+               
+            </div>
+            
+            <div class="campo">
+                <label>Produto</label>
+                <input type="text" id="input1" required/>
+               
+            </div>
+            
+            <div class="campo">
+                <label >Quantidade</label>
+                <input type="number" id="input2" required>
+            </div>
+            
+            <div class="campo">
+                <label>Valor</label>
+                <input type="number" id="input3" required>
+            </div>
+            
+        </fieldset>
+        <fieldset id="info">
+
+            <div id="entradas">
+
+            <label>Operação</label>
+            <select id="opcoes">
+                <option id="cad">Cadastrar</option>
+                <option id="rem">Remover</option>
+                <option>Atualizar</option>
+            </select> 
+
+            </div>
+
+            <div class="campo">
+            <label><strong>informações do produto</strong></label>
+            <textarea name="experiencia" id="descProd" row="6" style="width: 42em;"></textarea>
+            </div>
+        </fieldset>    
+        
+        <button type="button" class="botao" onclick="enviar()">Enviar</button>
+
+    </form>
+
+   </div>
+       
+</body>
+<script src="constApp.js"></script>
+</html>

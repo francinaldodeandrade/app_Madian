@@ -29,14 +29,19 @@
     height: 18vh;
   }
   
-  main {
+  /* main {
     background: url("./img/imgleila.jpg") no-repeat;
     background-size: cover;
     height: 92vh;
     opacity: 0.5;
 
+  } */
+
+  body {
+    background-image: url("../img/bg.jpg");
+    /*background-position: center;*/
+   background-size: cover;
   }
-  
   .nav-list {
     list-style: none;
     display: flex;
